@@ -1,4 +1,4 @@
-# khelm2 Weather Map with Alerts
+# Weather Map with Alerts
 Weather Map for Geog 4046 Lab 10
 
 ## Current Weather
