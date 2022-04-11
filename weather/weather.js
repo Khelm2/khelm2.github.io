@@ -12,12 +12,12 @@ var weatherAlertsUrl = 'https://api.weather.gov/alerts/active?region_type=land';
 $.getJSON(weatherAlertsUrl, function(data) {
   L.geoJSON(data, {
  style: function(feature){
-  var alertColor = 'orange';
+  var alertColor = 'blue';
   if (feature.properties.severity === 'Severe') alertColor = 'red';
   return { color: alertColor };
-  if (feature.properties.extreme === 'Extreme') alertColor = 'DeepPink';
+  if (feature.properties.extreme === 'Extreme') alertColor = 'pink';
   return { color: alertColor };
-  if (feature.properties.common === 'Common') alertColor = 'purple';
+  if (feature.properties.common === 'Common') alertColor = 'yellow';
   return { color: alertColor };
 },
  onEachFeature: function(feature, layer) {
