@@ -7,6 +7,6 @@ A map of the United States that shows real-time weather radar and alerts from th
 https://khelm2.github.io/weather/
 
 ## Photomap Tour for Baton Rouge Restaurants
-A Leaflet map that shows four locations of restaurants. The locations appear as markers on the map. The markers can be selected. If a marker is clicked on a picture, as well as a descriptions pops up for the selected location.
+A Leaflet map that shows four locations of restaurants. The locations appear as markers on the map. The markers can be selected: when selected, a picture, as well as a descriptions pops up for the selected location.
 
 https://khelm2.github.io/photomap/
